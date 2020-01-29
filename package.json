@@ -1,0 +1,25 @@
+{
+  "name": "stockticker",
+  "version": "1.0.0",
+  "description": "a stock ticker for arduino",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firmata-party": "^2.0.0",
+    "johnny-five": "^1.4.0",
+    "oled-font-5x7": "^1.0.3",
+    "oled-js": "^5.0.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "stock",
+    "ticker"
+  ],
+  "author": "Janique-ka John",
+  "license": "ISC"
+}
